@@ -1,0 +1,55 @@
+.outerbox{
+    width:100%;
+    height:100vh;
+    background: linear-gradient(16deg, rgba(61, 126, 96, 0.836) 0%, rgba(46,119,70,98) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /*background: linear-gradient(135deg, #71b7e6, #9b59b6);*/
+    background-image: url(../images/cover\ img.jpg);
+    background-color:aqua;
+}
+.logindiv{
+    width:450px;
+    height:550px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:20px 20px 20px rgba(0, 0, 0, 0.235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logindiv input{
+    width:300px;
+    padding:15px 20px;
+    margin:15px 0;
+    font-size: 15px;
+    height: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.129);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logindiv button{
+    width:auto;
+    text-transform: uppercase;
+    padding:10px;
+    position: relative;
+    border-radius: 10px;
+    background: linear-gradient(16deg, rgba(4,97,66,0.925) 0%, rgba(4, 97, 66, 0.925) 100%);
+color: white;
+font-size:20px;
+border: none;
+}
+h1 {
+    font-size: 2em;
+    color: rgba(4,97,66,0.925);
+    height: 80px;
+}
