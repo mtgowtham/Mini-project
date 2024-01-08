@@ -1,7 +1,7 @@
 document.getElementById("form").addEventListener("submit",x=>{
     x.preventDefault();
-    redirect_index();
+    redirect_form();
 })
-function redirect_index(){
-    window.open("../html/index.html");
+function redirect_form(){
+    window.open("../html/form.html");
 }
