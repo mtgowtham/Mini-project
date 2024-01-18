@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.border{
+    border-color: rgb(0, 0, 0);
+}
+body{
+    width: auto;
+}
+.header{
+    width: 100vw;
+    min-height: 100vh;
+    background: #34495e;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background: white;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+form{
+    padding: 1rem;
+}
+.h3{
+    margin-top: 1rem;
+    color:#2c3e50;
+
+}
+form input[type="text"]{
+    width: 100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+}
+#pincode{
+    display: flex;
+    margin-top: 0.5rem;
+}
+#pincode select{
+    padding: 0.5rem 0.7rem;
+}
+#pincode input[type="number"]{
+    padding: 0.5rem 0.7rem;
+    margin-left: 5px;
+}
+#button{
+    margin-top: 32px;
+    margin-right: 5px;
+    flex-direction: column;
+}
+.buu{
+    margin-top: 32px;
+    margin-left: 138px;
+}
+.buu button{
+    width: 70px;
+    height: 35px;
+}
+
