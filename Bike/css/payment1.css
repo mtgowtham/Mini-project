@@ -21,9 +21,10 @@
 
 .container form{
   padding:20px;
-  width:700px;
+  width:500px;
   background: #fff;
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  align-items: center;
 }
 
 .container form .row{
@@ -41,6 +42,9 @@
   color:#333;
   padding-bottom: 5px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container form .row .col .inputBox{
@@ -71,6 +75,7 @@
 
 .container form .row .col .flex .inputBox{
   margin-top: 5px;
+  width: 100%;
 }
 
 .container form .row .col .inputBox img{
@@ -83,12 +88,12 @@
   width: 100%;
   padding:12px;
   font-size: 17px;
-  background: #d43e23;
+  background: #f22324;
   color:#fff;
   margin-top: 5px;
   cursor: pointer;
 }
 
 .container form .submit-btn:hover{
-  background: #dd4328;
+  background: #f22324;
 }
